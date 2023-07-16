@@ -7,9 +7,9 @@ export default ({ env }) => ({
         "strapi-database.cxcmwaj0diye.eu-north-1.rds.amazonaws.com"
       ),
       port: env.int("DATABASE_PORT", 5432),
-      database: env("DATABASE_NAME", "strapi"),
-      user: env("DATABASE_USERNAME", ""),
-      password: env("DATABASE_PASSWORD", ""),
+      database: env("DATABASE_NAME", "strapi-database"),
+      user: env("DATABASE_USERNAME", "strapidb_user"),
+      password: env("DATABASE_PASSWORD", "3p7-gQSA?w-"),
     },
     useNullAsDefault: true,
   },
